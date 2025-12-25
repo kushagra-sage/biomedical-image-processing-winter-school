@@ -94,12 +94,15 @@ This section presents the empirical evidence validating LVM-OCR's effectiveness.
 * Performance was measured using two primary metrics:
   * Character Error Rate (CER): The percentage of characters that are incorrectly identified.
   * Word Error Rate (WER): The percentage of words that are incorrectly identified.
+
 * 5.2 Quantitative Results: Outperforming the State of the Art LVM-OCR was benchmarked against several previous state-of-the-art models, with results demonstrating a clear and consistent performance advantage.
 
-Model	Character Error Rate (%)	Word Error Rate (%)
-CNN (2017)	> 8.00	Not specified
-Transformer OCR (2023)	4.86	Not specified
-LVM-OCR	4.12	12.38
+| Model                     | Character Error Rate (%) | Word Error Rate (%) |
+|---------------------------|--------------------------|---------------------|
+| CNN (2017)                | > 8.00                   | Not specified      |
+| Transformer OCR (2023)    | 4.86                     | Not specified      |
+| **LVM-OCR**               | **4.12**                 | **12.38**          |
+
 
 The analysis shows that LVM-OCR achieved the lowest Character Error Rate at 4.12%. Crucially, the speaker emphasized that while the CER showed a modest improvement over the previous state-of-the-art Transformer OCR, the Word Error Rate dropped significantly. This large improvement in WER proves the model is not just better at guessing individual letters; its contextual understanding allows it to comprehend and reconstruct whole words far more accurately.
 
@@ -131,3 +134,4 @@ These future directions aim to make the technology not only smarter but also mor
 7.0 Conclusion: A Paradigm Shift from Recognition to Comprehension
 
 Ultimately, LVM-OCR represents a crucial turning point in the field of automated document analysis. The presentation compellingly argued that this technology marks a paradigm shift away from the simple pattern matching of traditional OCR ("seeing pixels") and toward a deeper, more human-like contextual understanding ("comprehension"). This advancement moves beyond just recognizing characters to interpreting the meaning embedded in a document's layout, language, and context. By achieving this, LVM-OCR finally enables the unlocking of invaluable data that has long been hidden within millions of unstructured, degraded, and complex medical records around the world.
+
