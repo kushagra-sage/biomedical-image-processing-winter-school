@@ -1,8 +1,11 @@
 ## Session: Correlating Morphological Features of Gestational Sac and Early Embryo in Predicting First Trimester Pregnancy Loss
 
 **Speaker:** Dr. Abhinav R Dasari
-*Designation:** Department of Obstetrics & Gynecology
+
+**Designation:** Department of Obstetrics & Gynecology
+
 **Organization:** Kalinga Institute of Medical Sciences (KIMS), Bhubaneswar
+
 **Topic:**  Correlating Morphological Features of Gestational Sac and Early Embryo in Predicting First Trimester Pregnancy Loss
 
 **1.1. Foundational Concepts of Early Pregnancy Ultrasound**
@@ -44,11 +47,11 @@ Data Requirements for Model Development
 To successfully train such a model, Dr. Dasari proposed a standardized approach to data collection. He suggested using short video clips, typically 15 to 30 seconds but up to a maximum of one minute, captured at a minimum resolution of 1920x1080 pixels and a frame rate of at least 30 frames per second. This standardized format would provide the AI with consistent, high-quality data for processing.
 While the potential advantages are significant, a balanced perspective requires acknowledging the practical hurdles that remain.
 
-** 1.5 Advantages and Limitations of AI Integration **
+**1.5 Advantages and Limitations of AI Integration**
 
 While Artificial Intelligence offers the potential to revolutionize early pregnancy assessment, its practical implementation faces several technical, logistical, and regulatory hurdles.
 
-** Advantages **
+**Advantages**
 
 - Reduces observer bias by standardizing measurements  
 - Eases high-volume patient screening through automation  
@@ -64,3 +67,4 @@ While Artificial Intelligence offers the potential to revolutionize early pregna
 - High cost of required software and hardware  
 
 Ultimately, Dr. Dasari concluded that AI should be viewed as a **support tool** designed to **augment, not replace**, the invaluable expertise and clinical judgment of trained practitioners.
+
