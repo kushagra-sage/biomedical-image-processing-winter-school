@@ -183,10 +183,10 @@ Customization can be done in two ways:
 
 ```mermaid
 flowchart LR
-    A[Input Image] --> B[Convolution]
-    B --> C[Activation (ReLU)]
-    C --> D[Pooling]
-    D --> E[Flatten]
+    A[Input Image] --> B[Convolution Layer]
+    B --> C[Activation ReLU]
+    C --> D[Pooling Layer]
+    D --> E[Flatten Layer]
     E --> F[Fully Connected Layers]
     F --> G[Output Layer]
 ````
@@ -233,3 +233,4 @@ flowchart LR
 * Multi-class classification: Softmax
 
 ---
+
