@@ -5,9 +5,6 @@
 **Organization:** Volktek Corporation, Taiwan  
 **Topic:** Introduction to Image Preprocessing Methods  
 
-> These notes reflect my understanding of the session delivered during the Winter School on Biomedical Image Processing and Its Applications.
-Understood.
-> 
 ## Introduction: Preparing Medical Images for Artificial Intelligence
 
 Before an artificial intelligence (AI) model can analyze a medical image like a CT scan or MRI, the image must be carefully prepared. This crucial set of steps, known as **pre-processing**, serves to clean, enhance, and focus the image data, transforming a raw scan into a format that a machine can effectively analyze. Without this foundational work, even the most advanced AI models can produce inaccurate and unreliable results.
@@ -168,3 +165,4 @@ Now, you might be thinking that these techniques can solve any problem. But as w
 Ultimately, image pre-processing is the essential first step in the sophisticated pipeline of modern medical AI. It is the art and science of preparing the canvas upon which complex models can perform their powerful analysis.
 
 ---
+
