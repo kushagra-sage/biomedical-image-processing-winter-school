@@ -110,7 +110,7 @@ The Radiomics-AI workflow is a systematic, multi-step process for converting a s
    This is the critical final step before a model can be used in clinical practice. Its predictive accuracy must be rigorously tested. This includes internal validation (testing on patients from the same institution) and external validation (testing on patient data from different institutions) to ensure the model is robust and generalizable.
 
 This end-to-end process culminates in a validated model that can augment clinical reports and help deliver on the promise of precision medicine.
-'''
+```mermaid
 flowchart LR
     A[Image Acquisition] --> B[Image Processing]
     B --> C[Segmentation]
@@ -118,7 +118,9 @@ flowchart LR
     D --> E[AI-based Modeling]
     E --> F[Validation]
     F --> G[Clinical Decision Support]
-'''
+```
+
+
 ## 6.0 Clinical Impact: Radiomics as a "Virtual Biopsy"
 
 The clinical significance of the Radiomics-AI approach is profound. By providing deep biological insights from standard medical images, it functions as a non-invasive "virtual biopsy," offering comprehensive information that can guide personalized patient care without the risks and limitations of a physical tissue sample.
@@ -158,3 +160,13 @@ In this new paradigm, the radiologist's responsibilities will evolve. They will 
 
 According to the speaker, this technology is currently in the research phase, with adoption hindered by factors such as the high cost of software, which can be "more than 50 lakhs 50 to 60 lakhs." However, it is widely regarded as the future of the field. The ultimate vision is a collaborative future where radiologists leverage AI-driven tools, marking a fundamental paradigm shift from qualitative visual assessment to quantitative, data-driven clinical decision support.
 
+
+```mermaid
+flowchart TD
+    A[CT / MRI Imaging] --> B[Radiomics Feature Extraction]
+    B --> C[AI-based Prediction]
+    C --> D[Virtual Biopsy]
+    D --> E[Treatment Planning]
+    D --> F[Risk Stratification]
+    D --> G[Treatment Response Monitoring]
+```
