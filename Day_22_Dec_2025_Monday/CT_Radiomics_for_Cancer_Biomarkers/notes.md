@@ -118,7 +118,6 @@ flowchart LR
     D --> E[AI-based Modeling]
     E --> F[Validation]
     F --> G[Clinical Decision Support]
-```
 
 
 ## 6.0 Clinical Impact: Radiomics as a "Virtual Biopsy"
@@ -169,4 +168,4 @@ flowchart TD
     D --> E[Treatment Planning]
     D --> F[Risk Stratification]
     D --> G[Treatment Response Monitoring]
-```
+
